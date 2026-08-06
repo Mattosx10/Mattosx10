@@ -1,11 +1,33 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:000000,50:0F52BA,100:3B82F6&text=JOÃO%20MATOS&fontSize=65&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:0D1117,40:1E3A8A,70:2563EB,100:60A5FA&text=JOÃO%20MATOS&fontColor=FFFFFF&fontSize=60&fontAlignY=35&animation=fadeIn&desc=Software%20Development%20Student&descAlignY=55&descSize=22"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2500&pause=800&color=60A5FA&center=true&vCenter=true&width=900&lines=SYSTEM+BOOTING...;SOFTWARE+DEVELOPMENT+STUDENT;C%23+%7C+JAVA;OBJECT+ORIENTED+PROGRAMMING;ALWAYS+LEARNING+NEW+TECHNOLOGIES;WELCOME+TO+MY+GITHUB"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2500&pause=800&color=60A5FA&center=true&vCenter=true&width=900&lines=C%23+Developer;Java+Developer;Object-Oriented+Programming;Learning+.NET+and+SQL;Always+Building+New+Projects"/>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cs,java,git,github,vscode,visualstudio&theme=dark"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/.NET-Learning-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
+
+<h3>
+💻 Software Development Student • Belo Horizonte, MG 🇧🇷
+</h3>
+
+<p>
+Passionate about technology, Object-Oriented Programming and building software with C# and Java.
+</p>
 
 </div>
+
+---
+
 
 ---
 
