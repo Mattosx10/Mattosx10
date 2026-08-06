@@ -1,7 +1,9 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:0D1117,40:1E3A8A,70:2563EB,100:60A5FA&text=JOÃO%20MATOS&fontColor=FFFFFF&fontSize=60&fontAlignY=35&animation=fadeIn&desc=Software%20Development%20Student&descAlignY=55&descSize=22"/>
+<p align="center">
+    <img src="./assets/banner.svg" width="100%">
+</p>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2500&pause=800&color=60A5FA&center=true&vCenter=true&width=900&lines=C%23+Developer;Java+Developer;Object-Oriented+Programming;Learning+.NET+and+SQL;Always+Building+New+Projects"/>
 
