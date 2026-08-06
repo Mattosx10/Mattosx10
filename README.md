@@ -1,4 +1,4 @@
-````markdown
+
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:000000,50:0F52BA,100:3B82F6&text=JOÃO%20MATOS&fontSize=65&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35"/>
