@@ -1,0 +1,372 @@
+<svg width="1200" height="350" viewBox="0 0 1200 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<!-- Fundo com brilho -->
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="350">
+<stop stop-color="#050505"/>
+<stop offset="0.5" stop-color="#0D1117"/>
+<stop offset="1" stop-color="#001F3F"/>
+</linearGradient>
+
+<!-- Neon azul -->
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+<!-- Brilho verde -->
+<filter id="greenGlow">
+<feGaussianBlur stdDeviation="3"/>
+</filter>
+
+
+</defs>
+
+
+<!-- Fundo -->
+<rect width="1200" height="350" fill="url(#bg)"/>
+
+
+<!-- Linhas de circuito -->
+<g opacity="0.25" stroke="#2563EB">
+
+<path d="M0 80 H220 L260 40 H420"/>
+<path d="M1200 90 H980 L940 50 H780"/>
+<path d="M0 280 H300 L340 320 H600"/>
+<path d="M1200 270 H900 L850 320 H650"/>
+
+</g>
+
+
+<!-- Números binários animados -->
+
+<g fill="#60A5FA"
+font-family="JetBrains Mono"
+font-size="18"
+opacity="0.45">
+
+
+<text x="80" y="40">
+010101010101
+<animate attributeName="y"
+values="40;360"
+dur="6s"
+repeatCount="indefinite"/>
+</text>
+
+
+<text x="220" y="100">
+101001010101
+<animate attributeName="y"
+values="100;400"
+dur="8s"
+repeatCount="indefinite"/>
+</text>
+
+
+<text x="370" y="20">
+011010101010
+<animate attributeName="y"
+values="20;350"
+dur="7s"
+repeatCount="indefinite"/>
+</text>
+
+
+<text x="850" y="80">
+110010101001
+<animate attributeName="y"
+values="80;390"
+dur="9s"
+repeatCount="indefinite"/>
+</text>
+
+
+<text x="1030" y="30">
+101010101110
+<animate attributeName="y"
+values="30;370"
+dur="7s"
+repeatCount="indefinite"/>
+</text>
+
+
+<text x="1130" y="120">
+001010101001
+<animate attributeName="y"
+values="120;400"
+dur="8s"
+repeatCount="indefinite"/>
+</text>
+
+  <!-- NOME PRINCIPAL -->
+
+<g filter="url(#glow)">
+
+<text
+x="600"
+y="150"
+text-anchor="middle"
+font-family="Orbitron, Arial"
+font-size="65"
+font-weight="900"
+fill="#FFFFFF"
+letter-spacing="4">
+
+JOÃO MATOS
+
+</text>
+
+</g>
+
+
+<!-- Linha neon abaixo do nome -->
+
+<rect
+x="350"
+y="170"
+width="500"
+height="3"
+fill="#2563EB"
+filter="url(#glow)">
+
+<animate
+attributeName="width"
+values="100;500;100"
+dur="3s"
+repeatCount="indefinite"/>
+
+</rect>
+
+
+<!-- Subtitulo -->
+
+<text
+x="600"
+y="215"
+text-anchor="middle"
+font-family="JetBrains Mono, monospace"
+font-size="24"
+fill="#60A5FA">
+
+Software Development Student
+
+</text>
+
+
+
+<!-- Terminal -->
+
+<g font-family="JetBrains Mono, monospace"
+font-size="16"
+fill="#00FF88"
+opacity="0.9">
+
+
+<text x="80" y="260">
+
+&gt; Initializing developer profile...
+
+</text>
+
+
+<text x="80" y="285">
+
+&gt; Languages: Java | C#
+
+</text>
+
+
+<text x="80" y="310">
+
+&gt; Status: Building new projects_
+
+</text>
+
+
+</g>
+
+
+
+<!-- Tecnologias -->
+
+<g font-family="Arial"
+font-size="28"
+font-weight="bold">
+
+
+<text
+x="820"
+y="270"
+fill="#F89820">
+
+☕ JAVA
+
+</text>
+
+
+<text
+x="820"
+y="310"
+fill="#9B4F96">
+
+💜 C#
+
+</text>
+
+
+</g>
+
+
+
+<!-- Partículas -->
+
+<g fill="#60A5FA">
+
+<circle cx="150" cy="150" r="3">
+<animate attributeName="opacity"
+values="0;1;0"
+dur="2s"
+repeatCount="indefinite"/>
+</circle>
+
+
+<circle cx="1050" cy="180" r="3">
+<animate attributeName="opacity"
+values="1;0;1"
+dur="3s"
+repeatCount="indefinite"/>
+</circle>
+
+
+<circle cx="980" cy="80" r="2">
+<animate attributeName="opacity"
+values="0;1;0"
+dur="2.5s"
+repeatCount="indefinite"/>
+</circle>
+
+
+</g>
+<!-- BORDA FUTURISTA -->
+
+<rect
+x="10"
+y="10"
+width="1180"
+height="330"
+rx="25"
+stroke="#2563EB"
+stroke-width="2"
+fill="none"
+opacity="0.7">
+
+
+<animate
+attributeName="stroke"
+values="#2563EB;#00FF88;#2563EB"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
+
+
+
+<!-- EFEITO DE SCANNER -->
+
+<rect
+x="0"
+y="0"
+width="1200"
+height="5"
+fill="#00FF88"
+opacity="0.4">
+
+
+<animate
+attributeName="y"
+values="0;350;0"
+dur="5s"
+repeatCount="indefinite"/>
+
+</rect>
+
+
+
+<!-- Pequenos detalhes de código -->
+
+<g
+font-family="JetBrains Mono, monospace"
+font-size="12"
+fill="#2563EB"
+opacity="0.6">
+
+
+<text x="40" y="55">
+
+01001010 01000001 01010110 01000001
+
+</text>
+
+
+<text x="880" y="340">
+
+01000011 00100011 01000100
+
+</text>
+
+
+<text x="450" y="330">
+
+SYSTEM.READY // GITHUB_PROFILE.ONLINE
+
+</text>
+
+
+</g>
+
+
+
+<!-- Ícones estilizados -->
+
+<circle
+cx="60"
+cy="175"
+r="18"
+stroke="#60A5FA"
+fill="none"/>
+
+
+<circle
+cx="1140"
+cy="175"
+r="18"
+stroke="#00FF88"
+fill="none"/>
+
+
+
+<!-- Brilho final -->
+
+<text
+x="600"
+y="330"
+text-anchor="middle"
+font-family="JetBrains Mono"
+font-size="14"
+fill="#FFFFFF"
+opacity="0.8">
+
+CODE • LEARN • BUILD • EVOLVE
+
+</text>
+
+
+</svg>
+
+
+</g>
