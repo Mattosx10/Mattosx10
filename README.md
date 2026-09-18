@@ -74,6 +74,7 @@ public class JoaoMatos
         "Software Development",
         "Software Quality (QA)",
         "Object-Oriented Programming"
+        "My first internship"
     };
 
     public string[] Languages =
