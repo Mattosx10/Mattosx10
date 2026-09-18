@@ -119,9 +119,11 @@ public class JoaoMatos
 
 | 🚀 Project | 💡 Description |
 |------------|----------------|
+| 🎵 **FireHair Records** | Console application developed in C# using Object-Oriented Programming concepts to simulate album rentals, customer management, inventory control, payments and late-return fines. |
 | 🛒 **Sales & Inventory Management System** | Desktop application developed in C# using Object-Oriented Programming concepts to manage products, inventory and sales. |
 | 🐶 **Pet Shop Machine Simulator** | C# application that simulates the operation of a pet shop, focusing on programming logic and business rules. |
 | 🎬 **Cinema Ticket System** | Console application developed in Java using Object-Oriented Programming concepts to simulate movie selection, ticket types and customer information. |
+
 
 
 ---
